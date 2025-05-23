@@ -333,6 +333,14 @@
             margin-bottom: 20px;
         }
 
+        .mobile-only {
+            display: none;
+        }
+
+        .desktop-only {
+            display: block;
+        }
+
         .profile-container {
             display: flex;
             flex-wrap: wrap;
@@ -492,6 +500,15 @@
                 white-space: nowrap;
                 overflow-wrap: break-word;
             }
+
+            .mobile-only {
+                display: block;
+            }
+
+            .desktop-only {
+                display: none;
+            }
+
         }
 
         @media screen and (max-width: 480px) {
