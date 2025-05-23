@@ -4,6 +4,8 @@
             color: #333;
             padding: 30px;
             text-align: center;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
         }
 
         header {
