@@ -434,7 +434,7 @@
         @media screen and (max-width: 768px) {
             body {
                 padding: 15px;
-            }            
+            }
 
             .top-image-bg {
                 background-size: contain;
@@ -517,7 +517,7 @@
         @media screen and (max-width: 480px) {
             body {
                 padding: 15px;
-            }            
+            }
 
             .top-image-bg {
                 background-size: contain;
@@ -602,4 +602,9 @@
 
         }
 
-        
+
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .otayori-page h1 {
+                font-size: 22px;
+            }
+        }
