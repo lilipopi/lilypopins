@@ -471,7 +471,6 @@
             .footer-image img {
                 width: 100%;
             }
-        }
 
             nav {
                 display: flex;
@@ -485,6 +484,7 @@
                 font-size: 18px;
                 padding: 8px 0;
             }
+        }
 
         @media screen and (max-width: 480px) {
             body {
