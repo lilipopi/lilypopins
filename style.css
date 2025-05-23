@@ -450,8 +450,8 @@
                 font-size: 0.98em;
             }
 
-            .hero-content p {
-                font-size: 7px;
+            .index-page .hero-content p {
+                font-size: 14px;
                 line-height: 1.6;
                 padding: 0 20px;
             }
@@ -529,8 +529,8 @@
                 font-size: 0.98em;
             }
 
-            .hero-content p {
-                font-size: 7px;
+            .index-page .hero-content p {
+                font-size: 14px;
                 line-height: 1.6;
                 max-width: 90%;
                 padding: 0 15px;
