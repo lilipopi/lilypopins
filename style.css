@@ -440,7 +440,7 @@
             }
 
             .hero-content p {
-                font-size: 0.5em;
+                font-size: 1em;
                 line-height: 1.6;
                 padding: 0 20px;
             }
@@ -495,9 +495,12 @@
             }
 
             .hero-content p {
-                font-size: 0.5em;
+                font-size: 1em;
                 line-height: 1.6;
-                padding: 0 20px;
+                max-width: 90%;
+                padding: 0 15px;
+                text-align: left;
+                margin: 0 auto;
             }
 
             .nav-menu ul {
