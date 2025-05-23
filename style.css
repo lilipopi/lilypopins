@@ -473,16 +473,18 @@
             }
 
             nav {
-                display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 12px;
-                padding: 16px 0;
+                gap: 16px;
+                padding: 16px;
             }
 
             nav a {
-                font-size: 18px;
-                padding: 8px 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-size: 1.1em;
+                padding: 10px 0;
             }
         }
 
@@ -544,16 +546,18 @@
             }
 
             nav {
-                display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 12px;
-                padding: 16px 0;
+                gap: 16px;
+                padding: 16px;
             }
 
             nav a {
-                font-size: 18px;
-                padding: 8px 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                font-size: 1.1em;
+                padding: 10px 0;
             }
         }
 
