@@ -507,7 +507,7 @@
             }
 
             .about-story p {
-                font-size: 14px;
+                font-size: 10px;
                 line-height: 1.6;
             }
 
@@ -600,7 +600,7 @@
             }
 
             .about-story p {
-                font-size: 14px;
+                font-size: 10px;
                 line-height: 1.6;
             }
 
@@ -614,7 +614,7 @@
 
         @media screen and (-webkit-min-device-pixel-ratio:0) {
             .about-story p {
-                font-size: 14px;
+                font-size: 10px;
                 line-height: 1.6;
             }
 
