@@ -506,6 +506,12 @@
                 display: none;
             }
 
+            .about-story p {
+                word-break: keep-all;
+                white-space: normal;
+                font-size: 1.1em;
+            }
+
             .otayori-page h1 {
                 white-space: nowrap;
                 font-size: 24px;
@@ -594,6 +600,12 @@
                 display: none;
             }
 
+            .about-story p {
+                word-break: keep-all;
+                white-space: normal;
+                font-size: 1.1em;
+            }
+
             .otayori-page h1 {
                 white-space: nowrap;
                 font-size: 24px;
@@ -604,6 +616,13 @@
 
 
         @media screen and (-webkit-min-device-pixel-ratio:0) {
+
+            .about-story p {
+                word-break: keep-all;
+                white-space: normal;
+                font-size: 1.1em;
+            }
+
             .otayori-page h1 {
                 font-size: 22px;
             }
