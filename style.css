@@ -344,10 +344,6 @@
             display: block;
         }
 
-        .about-story p {
-            font-size: 16px;
-        }
-
         .profile-container {
             display: flex;
             flex-wrap: wrap;
@@ -510,11 +506,6 @@
                 display: none;
             }
 
-            .about-story p {
-                font-size: 10px;
-                line-height: 1.6;
-            }
-
             .otayori-page h1 {
                 white-space: nowrap;
                 font-size: 24px;
@@ -603,11 +594,6 @@
                 display: none;
             }
 
-            .about-story p {
-                font-size: 10px;
-                line-height: 1.6;
-            }
-
             .otayori-page h1 {
                 white-space: nowrap;
                 font-size: 24px;
@@ -617,11 +603,6 @@
         }
 
         @media screen and (-webkit-min-device-pixel-ratio:0) {
-            .about-story p {
-                font-size: 10px;
-                line-height: 1.6;
-            }
-
             .otayori-page h1 {
                 font-size: 22px;
             }
