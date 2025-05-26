@@ -344,6 +344,10 @@
             display: block;
         }
 
+        .about-story p {
+            font-size: 14px;
+        }
+
         .profile-container {
             display: flex;
             flex-wrap: wrap;
