@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おたよりページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="otayori-form">
+    <div class="otayori-page">
+        <h1>💌 おたより募集中 💌</h1>
+        <p>リリーとポピーにメッセージを送ってね！<br>番組の感想、私たちに話してほしいトークテーマ、お悩み相談も受け付けてます💐</p>
+
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">ニックネーム</label>
+            <input type="text" id="name" name="name" placeholder="ラジオネーム">
+
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="5" placeholder="メッセージを書いてね！" required></textarea>
+
+            <button type="submit">おたよりを送る📮</button>
+        </form>
+    </div>
+
+    <p><a href="blog.html" class="back-link">トップページに戻る</a></p>
+</body>
+</html>

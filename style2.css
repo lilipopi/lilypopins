@@ -1,0 +1,290 @@
+body {
+    background-image: repeating-linear-gradient(to right, #F8EFE5, #F8EFE5 20px, #FFEFEF 20px, #FFEFEF 40px);
+    background-color: #F8EFE5;
+    color: #3F2B1C;
+    font-family: 'Kiwi Maru', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFDF9;
+    background-image: url("./iillust/flower_sukeb.jpg");
+    background-repeat: repeat;
+    background-size: 130px;
+    background-attachment: fixed;
+    border-bottom: 4px solid #EFA5C3;
+    padding: 5px 0px 5px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 0.2em;
+}
+
+header p {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #3F2B1C;
+    line-height: 1.2;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.main-nav {
+    background-color: #F8EFE5;
+    padding: 10px 0;
+    border-top: 2px solid #9CA00E;
+    border-bottom: 2px solid #9CA00E;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #9CA00E;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #f9dce2;
+    color: #262015;
+}
+
+article.blog-post {
+    background-color: #FFFDF9;
+    border-left: 6px solid #9CA00E;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+
+article.blog-post:hover {
+    transform: translateY(-4px);
+}
+
+article.blog-post h2 {
+    font-size: 1.5rem;
+    color: #EFA5C3;
+    margin-top: 0;
+}
+
+article.blog-post .blog-date {
+    font-size: 0.9rem;
+    color: #9CA00E;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #9CA00E;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body.blog-article {
+    font-family: 'Kiwi Maru', sans-serif;
+    background-color: #fdf6f0;
+    color: #5a4b3f;
+    padding: 2rem;
+}
+
+.article-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fffdfb;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(180, 160, 130, 0.1);
+}
+
+.back-to-blog {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #b48b74;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.blog-post .post-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #b48b74;
+}
+
+.blog-post .post-date {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.post-divider {
+    border: none;
+    border-top: 2px dashed #e0cfc0;
+    margin: 1.5rem 0;
+}
+
+.post-content p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.blog-otayori-link {
+    color: #F4A7B9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-otayori-link:hover {
+    color: #FFB3C1;
+}
+
+/*　記事一覧　*/
+.archive-list {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.archive-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.archive-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #F8EFE5;
+    border-left: 5px solid #9CA00E;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.archive-list li:hover {
+    background-color: #f9dce2;
+}
+
+.archive-list a {
+    color: #262015;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 検索エンジン　*/
+.search-box {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.search-box input {
+    padding: 0.6em 1em;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #9CA00E;
+    border-radius: 10px;
+    background-color: #F8EFE5;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    color: #262015;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(154, 160, 14, 0.2);
+}
+
+.search-box input::placeholder {
+    color: #d9cfc3;
+}
+
+/* モバイル用のメディアクエリ */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    background-color: #f8efe5;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 2px solid #9ca00e;
+  }
+
+  header img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header p {
+    font-size: 14px;
+    color: #262015;
+    margin-top: 10px;
+  }
+
+  .blog-index {
+    padding: 20px 15px;
+  }
+
+  .blog-post {
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-post h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #d86e8a; /* ピンク系のアクセント */
+  }
+
+  .blog-post .blog-date {
+    font-size: 13px;
+    color: #888;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 8px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #262015;
+  }
+}
